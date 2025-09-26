@@ -1,18 +1,14 @@
-Aqui está um **README em inglês** para o projeto:
+# **FCEinventoryWebApp**
 
----
-
-# **Fullstack MERN Application**
-
-A simple fullstack application built with **React (Vite)** for the frontend, **Node.js + Express + TypeScript** for the backend, and **MongoDB** as the database.
-This project demonstrates how to set up a complete stack with CRUD operations for managing users.
+**FCEinventoryWebApp** is a fullstack application built with **React (Vite)** for the frontend, **Node.js + Express + TypeScript** for the backend, and **MongoDB** as the database.
+This project demonstrates a complete setup for a MERN-based application with basic CRUD operations to manage users.
 
 ---
 
 ## **Project Structure**
 
 ```
-meu-projeto/
+FCEinventoryWebApp/
 │
 ├── backend/            # API built with Node.js, Express, TypeScript
 │   ├── src/
@@ -76,7 +72,7 @@ meu-projeto/
 
 ## **Getting Started**
 
-Follow these steps to run the project locally.
+Follow these steps to run **FCEinventoryWebApp** locally.
 
 ### **Prerequisites**
 
@@ -88,8 +84,8 @@ Follow these steps to run the project locally.
 ### **1. Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/mern-app.git
-cd mern-app
+git clone https://github.com/your-username/FCEinventoryWebApp.git
+cd FCEinventoryWebApp
 ```
 
 ---
@@ -109,7 +105,7 @@ cd mern-app
 3. Create a `.env` file:
 
    ```
-   MONGO_URI=mongodb://127.0.0.1:27017/myDatabase
+   MONGO_URI=mongodb://127.0.0.1:27017/FCEinventoryDB
    PORT=5000
    ```
 4. Run the backend server:
@@ -118,7 +114,7 @@ cd mern-app
    npm run dev
    ```
 
-   The backend will be running at: `http://localhost:5000`
+   The backend will run at: `http://localhost:5000`
 
 ---
 
@@ -140,7 +136,7 @@ cd mern-app
    npm run dev
    ```
 
-   The frontend will be running at: `http://localhost:5173`
+   The frontend will run at: `http://localhost:5173`
 
 ---
 
@@ -220,7 +216,7 @@ cd mern-app
 * Add user authentication (JWT).
 * Edit and delete users.
 * Implement pagination on the user list.
-* Deploy to production using services like Vercel and Render.
+* Deploy to production using services like Vercel (Frontend) and Render (Backend).
 
 ---
 
